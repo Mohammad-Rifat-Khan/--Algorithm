@@ -13,7 +13,7 @@ srand(time(0)); // Initialize the random seed, By using the srand function to se
 //int randomNum = rand()%10; //generates random number from 0 to 10
 
 for (int i = 0; i < 10; i++) {
-int randomNum = rand() % 10+1; // generate a random number between 0 and 9
+int randomNum = rand() % 10; // generates all random number between 0 and 9
 cout << randomNum << " ";
 }
 //cout << "Random number: " << randomNum << endl;
