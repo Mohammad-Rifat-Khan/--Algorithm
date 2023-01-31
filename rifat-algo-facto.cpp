@@ -11,10 +11,18 @@ using namespace std;
 int main()
 {
 	int num;
-	cout<<"Enter the max number: ";
+	cout<<"Enter a positive  number: ";
 	cin>>num;
+	if (num<0)
+	{
+		cout<<"Does not exist!";
+	
+	}
+	
+	else{ 
 	cout << "Factorial of "
 		<< num << " is " << factorial(num) << endl;
+		}
 	return 0;
 }
 
