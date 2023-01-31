@@ -1,3 +1,17 @@
+/*Algorithm 6 Selection Sort
+1: procedure SelectionSort(A, n)
+2: for i ← 0, n − 1 do
+3: iMin ← i
+4: for j ← i + 1, n − 1 do
+5: if A[j] < A[iMin] then
+6: iMin = j
+7: end if
+8: swap(A[iMin],A[i])
+9: end for
+10: end for
+11: end procedure*/
+
+
 #include<iostream>
 using namespace std;
 
